@@ -1,19 +1,21 @@
 import React from "react";
 
 function Card() {
-return (
+  return (
     <>
-    <div className="card_wrap">
-        
+      <div className="card_wrap">
         <div className="left">
-            <h2></h2>
-            <a href=""><button></button></a>
+          <h2></h2>
+          <a href="">
+            <button></button>
+          </a>
         </div>
 
         <div className="right">
-            <img src="" alt="" />
+          <img src="" alt="" />
         </div>
-    </div>
+      </div>
     </>
-)
+  );
 }
+export default Card;
