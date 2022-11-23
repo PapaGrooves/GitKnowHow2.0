@@ -6,10 +6,6 @@ import Branches from "./pages/Branches";
 import Issues from "./pages/Issues";
 import OriginMaster from "./pages/OriginMaster";
 import VsCode from "./pages/VsCode";
-<<<<<<< HEAD
-=======
-// Testing to push to github
->>>>>>> cd1dd45 (Added my project)
 
 function App() {
   return (

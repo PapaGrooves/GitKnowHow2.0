@@ -4,6 +4,7 @@ import { Outlet, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <React.Fragment>
+      <div className="nav_wrap">
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="branches">Branches</NavLink>
@@ -11,6 +12,7 @@ function Navbar() {
         <NavLink to="originmaster">Originmaster</NavLink>
         <NavLink to="vscode">Vscode</NavLink>
       </nav>
+      </div>
       {/* displaying the children of the navbar, outlet */}
       <Outlet />
     </React.Fragment>
